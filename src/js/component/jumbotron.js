@@ -6,20 +6,11 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Jumbotron = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
+		<div className="container py-5 bg-light mx-auto">
+			<h1 className="display-5 fw-bold ">A Warm welcome!</h1>
+			<p className="col-md fs-5 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia unde error eveniet impedit est tempora quidem molestiae dicta soluta atque laboriosam velit iure sed ut rerum, autem cum labore consequatur?</p>
+			<button className="btn btn-primary btn-lg" type="button">Call to action!</button>
+      </div>
 	);
 };
 

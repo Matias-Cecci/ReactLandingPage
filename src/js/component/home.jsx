@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
+import Footer from "./footer"
 
 import Jumbotron from "./jumbotron";
 
@@ -19,6 +20,7 @@ const Home = () => {
 				buttonJumbotron= "Call to action!"
 				/>
 			</div>
+      <Footer/>
 		</div>
 	);
 };
